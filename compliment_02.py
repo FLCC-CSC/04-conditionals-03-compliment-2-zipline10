@@ -1,8 +1,8 @@
 # FILE NAME - compliment_02.py
 
-# NAME: 
-# DATE: 
-# BRIEF DESCRIPTION:  
+# NAME: John Jones
+# DATE: 10/3/25
+# BRIEF DESCRIPTION:  Progam that asks if you'd like a compliment but has more options than just yes
 
 
 
@@ -15,7 +15,12 @@
 
 ########## ENTER YER CODE BELOW THIS LINE ##########
 
-
+response = input("Would you like a compliment? ")
+if response == 'yes':
+    print("You have wonderful eyes.")
+else:
+    print("No compliment for you!")
+print("Thank you for playing.")
 
 
 
@@ -70,7 +75,7 @@ Thank you for playing.
 '''
 
 1. Did you struggle with this lab (YES/NO)?
-
+YES
 
 
 
